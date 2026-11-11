@@ -1,0 +1,5 @@
+---
+title: 글 목록
+---
+<section class="hero"><div class="eyebrow">LEARN · BUILD · WRITE</div><h1>작은 배움을 모아,<br>나만의 기록으로.</h1><p class="intro">새롭게 알게 된 것, 직접 만들어 본 것,<br>그리고 시행착오 속에서 배운 것을 차근차근 남깁니다.</p></section>
+<section aria-label="최근 글"><div class="section-head"><h2>최근 기록</h2><span class="count">{{ site.posts | size }}개의 글</span></div><div class="cards">{% for post in site.posts %}<a class="card" href="{{ post.url | relative_url }}"><div>{% for category in post.categories %}<span class="tag">{{ category | escape }}</span>{% endfor %}<time class="meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time></div><h3>{{ post.title | escape }}</h3><p>{{ post.description | default: post.excerpt | strip_html | truncate: 120 }}</p><span class="arrow">기록 읽기 →</span></a>{% endfor %}</div></section>
