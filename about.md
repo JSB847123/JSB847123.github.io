@@ -1,25 +1,7 @@
 ---
-title: 소개
+title: 이 노트에 대해
 permalink: /about/
+description: "AI 도구, Python·데이터 공부, 작은 웹 프로젝트를 직접 해 보며 배우는 사람의 노트."
 ---
-<div class="article" markdown="1">
-<div class="eyebrow">ABOUT THIS BLOG</div>
-
-# 배움의 기록
-
-배운 내용을 차근차근 정리하고, 직접 만들어 보는 과정을 담는 개인 블로그입니다.
-
-## 이곳에 남길 기록
-
-- **배움**: 새롭게 이해한 개념과 공부한 내용
-- **만들기**: 웹사이트와 작은 프로젝트를 만드는 과정
-- **시행착오**: 막혔던 부분과 해결 방법
-
-완벽한 결과보다, 어제보다 조금 더 이해하게 된 과정을 소중히 기록합니다.
-
-## 블로그 운영 방식
-
-글은 Markdown 파일로 작성하고, GitHub Pages를 통해 웹사이트로 공개합니다. 새로운 글을 작성하는 방법은 첫 번째 글에서 확인할 수 있습니다.
-
-[글 목록으로 돌아가기]({{ '/' | relative_url }})
-</div>
+<section class="about-hero"><div class="eyebrow">BEHIND THE NOTES</div><h1>답을 모으는 것보다,<br>이해하는 과정을 남깁니다.</h1><p>AI 도구를 직접 써 보고, 코드가 움직이는 이유를 묻고, 작은 아이디어를 실제 화면으로 만들어보는 사람의 노트입니다.</p></section>
+<div class="prose"><h2>이 블로그가 향하는 곳</h2><p>새로운 기술을 멀리서 바라보기보다, 직접 만져보며 배웁니다. 처음부터 능숙하지 않아도 괜찮습니다. 따라 해 보고, 막힌 지점을 살펴보고, 이해한 내용을 내 말로 정리하는 과정을 소중히 생각합니다.</p><div class="about-topics"><section class="about-topic" id="ai"><div class="eyebrow">01 / AI TOOLS</div><h3>쓸모를 확인하는 AI 실험</h3><p>생성형 AI와 다양한 AI 도구에 관심이 있습니다. ComfyUI와 이미지 생성부터 일상적인 자동화까지, 기능 소개를 넘어 직접 써 보며 활용 방법을 탐구합니다.</p></section><section class="about-topic" id="python"><div class="eyebrow">02 / PYTHON & DATA</div><h3>기초부터 이해하는 데이터 공부</h3><p>Python과 pandas를 익히며 AICE Associate를 공부하고 있습니다. 코드 한 줄의 괄호와 점이 왜 필요한지부터, 전처리와 모델 평가의 흐름까지 차근차근 이해하려고 합니다.</p></section><section class="about-topic" id="build"><div class="eyebrow">03 / SMALL PROJECTS</div><h3>아이디어를 실제로 만들기</h3><p>HTML과 웹사이트, GitHub 저장소와 배포를 연결해 봅니다. 내 컴퓨터에서 실행되는 코드가 실제 주소로 열리는 서비스가 되는 과정을 배우고 있습니다.</p></section><section class="about-topic"><div class="eyebrow">04 / LEARNING NOTES</div><h3>시행착오도 좋은 기록</h3><p>잘 된 결과만이 아니라 예상과 달랐던 부분, 고친 방법, 다음에 확인할 내용을 함께 정리합니다. 다른 초보자도 따라갈 수 있는 설명을 지향합니다.</p></section></div><h2>기록할 때 지키고 싶은 것</h2><ol class="principles"><li><div><strong>‘왜?’를 한 번 더 묻기</strong><span>동작하는 코드를 복사하는 데서 멈추지 않고, 문법과 원리를 쉬운 말로 풀어봅니다.</span></div></li><li><div><strong>직접 확인한 것과 들은 것을 구분하기</strong><span>공식 문서, 다른 사람의 의견, 직접 써 본 경험을 구분합니다. 확인이 필요한 내용은 그렇게 표시합니다.</span></div></li><li><div><strong>작게 만들고 실제로 확인하기</strong><span>완벽한 계획보다 작은 실행을 먼저 합니다. 실행 결과와 화면을 확인하고, 다음 단계로 이어갑니다.</span></div></li></ol><h2>아직 채워가는 중입니다</h2><p>이곳은 전문가의 완성된 포트폴리오라기보다 배우는 과정의 작업실입니다. 탐구 분야의 소개와 실제 발행한 글은 구분하며, 경험하지 않은 성과나 후기를 채워 넣지 않습니다.</p><p><a href="{{ '/' | relative_url }}#notes">지금까지의 기록 읽기 →</a></p></div>
